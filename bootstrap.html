@@ -33,7 +33,7 @@
         <div class="container-fluid">
           <div class="col">
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
               Create a new post
             </button>
 
@@ -55,12 +55,12 @@
                         rows="2">Add the caption of your post here</textarea>
                         
                       
-                          <div class="row">
-                            <div class="col-2 my-2"> <i class=" d-flex justify-content-center fa-solid fa-camera form-control"></i></div>
-                            <div class="col-2 my-2"><i class=" d-flex justify-content-center fa-solid fa-location-dot form-control"></i></div>
+                          
+                             <i class=" btn btn-light border border-gray mt-2 fa-solid fa-camera "></i>
+                            <i class=" btn btn-light border border-gray mt-2 fa-solid fa-location-dot "></i>
                          
                           
-                        </div>
+                   
                        
                     </div>
                   </div>
@@ -105,9 +105,9 @@
   <!-- Start Design Pill 1 -->
   <ul class="nav nav-pills my-4 justify-content-center align-items-center" id="pills-tab" role="tablist">
     <li class="nav-item" role="presentation">
-      <button class="nav-link active " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+      <button class="nav-link active bg-transparent " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
         type="button" role="tab" aria-controls="pills-home" aria-selected="true">
-        <i class="fa-solid fa-table-cells"></i>
+        <i class="fa-solid fa-table-cells text-muted"></i>
 
       </button>
       <!--End Design Pill 1 -->
@@ -115,9 +115,9 @@
       <!--Start Design Pill 2  -->
     </li>
     <li class="nav-item" role="presentation">
-      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+      <button class="nav-link bg-transparent" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
         type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
-        <i class="fa-solid fa-stop"></i>
+        <i class="fa-solid fa-stop text-muted"></i>
       </button>
     </li>
     <!--End Design Pill 2  -->
@@ -127,17 +127,16 @@
     <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
       tabindex="0">
       <div class="container-fluid">
-        <div class="row  ">
-          <div class="col-12 col-md-4 mb-3"><img src="https://placekitten.com/590/360" class="img-fluid w-100" alt="...">
-          </div>
-          <div class="col-12 col-md-4 "><img src="https://placekitten.com/590/360" class="img-fluid w-100 " alt="..."></div>
-          <div class="col-12 col-md-4 "> <img src="https://placekitten.com/590/360" class="img-fluid w-100" alt="..."></div>
-          <div class="col-12 col-md-4 mb-3"> <img src="https://placekitten.com/590/360" class="img-fluid w-100" alt="..."></div>
-          <div class="col-12 col-md-4 "> <img src="https://placekitten.com/590/360" class="img-fluid  w-100" alt="..."></img></div>
-          <div class="col-12 col-md-4 "> <img src="https://placekitten.com/590/360" class="img-fluid w-100" alt="..."></div>
-          <div class="col-12 col-md-4 mb-3"> <img src="https://placekitten.com/590/360" class="img-fluid w-100" alt="..."></div>
-          <div class="col-12 col-md-4 "> <img src="https://placekitten.com/590/360" class="img-fluid w-100" alt="..."></div>
-          <div class="col-12 col-md-4 "><img src="https://placekitten.com/590/360" class="img-fluid w-100" alt="..."></div>
+        <div class="row px-1 ">
+          <div class="col-12 col-md-4 mb-2 p-0 px-1"><img src="https://placekitten.com/590/360" class="img-fluid w-100" alt="..."></div>
+          <div class="col-12 col-md-4 mb-2 p-0 px-1"><img src="https://placekitten.com/590/360" class="img-fluid w-100 " alt="..."></div>
+          <div class="col-12 col-md-4 mb-2 p-0 px-1"> <img src="https://placekitten.com/590/360" class="img-fluid w-100" alt="..."></div>
+          <div class="col-12 col-md-4 mb-2 p-0 px-1"> <img src="https://placekitten.com/590/360" class="img-fluid w-100" alt="..."></div>
+          <div class="col-12 col-md-4 mb-2 p-0 px-1"> <img src="https://placekitten.com/590/360" class="img-fluid w-100" alt="..."></div>
+          <div class="col-12 col-md-4 mb-2 p-0 px-1"> <img src="https://placekitten.com/590/360" class="img-fluid w-100" alt="..."></div>
+          <div class="col-12 col-md-4 mb-2 p-0 px-1"> <img src="https://placekitten.com/590/360" class="img-fluid w-100" alt="..."></div>
+          <div class="col-12 col-md-4 mb-2 p-0 px-1"> <img src="https://placekitten.com/590/360" class="img-fluid w-100" alt="..."></div>
+          <div class="col-12 col-md-4 mb-2 p-0 px-1"><img src="https://placekitten.com/590/360" class="img-fluid w-100" alt="..."></div>
         </div>
       </div>
     </div>
@@ -160,10 +159,9 @@
                   <img src="https://placekitten.com/640/360
                   "></img>
                 </div>
-                <div>
-                  <p>This is my first photo of the feed, this is a multi line comment for
-                    testing purposes. I am learning to code with
-                    <strong>#BreatheCode</strong>
+                <div class="text-header mb-3">
+                  <p><strong>204 likes</strong></p>
+                  <p>This is an example of a very good photo you can post on instagram
                   </p>
                 </div>
               </div>
@@ -187,9 +185,9 @@
             
                   "></img>
                 </div>
-                <div>
-                  <p> The Internet approves this beautiful bear...
-                    <strong>#BreatheCode</strong>
+                <div class="text-header mb-3">
+                  <p><strong>204 likes</strong></p>
+                  <p>This is an example of a very good photo you can post on instagram
                   </p>
                 </div>
               </div>
@@ -214,9 +212,9 @@
             
                     "></img>
                 </div>
-                <div>
-                  <p>Some people bother me
-                    <strong>#BreatheCode</strong>
+                <div class="text-header mb-1">
+                  <p><strong>204 likes</strong></p>
+                  <p>This is an example of a very good photo you can post on instagram
                   </p>
                 </div>
               </div>

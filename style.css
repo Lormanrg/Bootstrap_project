@@ -44,3 +44,7 @@ div.post .post-header div:last-child {
   padding: 10px;
   margin: 0;
 }
+
+button.active > i {
+  color: blue !important;
+}
